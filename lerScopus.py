@@ -4,8 +4,8 @@ print("limite")
 print(csv.field_size_limit())
 csv.field_size_limit(100000000)
 
-arquivo = open('teste(01-11)/scopus-01-11.csv')
-corpus = open('teste(01-11)/corpus-01-11.txt', 'w')
+arquivo = open('tais-novembro/scopus.csv')
+corpus = open('tais-novembro/MoodleEducation.txt', 'w')
 
 linhas = csv.reader(arquivo)
 artigos = csv.DictReader(arquivo)
