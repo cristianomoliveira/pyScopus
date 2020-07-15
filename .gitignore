@@ -1,2 +1,3 @@
 doutorado
-.corpus.txt
+*.txt
+*.csv
